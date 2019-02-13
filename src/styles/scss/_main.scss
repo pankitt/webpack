@@ -1,6 +1,14 @@
 body {
-    border: 2px solid #ccc;
+    font-family: MuseoSans;
+}
+.one {
+    background: #aaa;
     h3 {
-        padding: 0 20px;
+        padding: 20px;
+    }
+    img {
+        vertical-align: middle;
+        height: 50px;
+        margin: 0 10px;
     }
 }
