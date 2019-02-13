@@ -2,7 +2,8 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 const plugins = new HtmlWebPackPlugin({
     template: "./public/index.html",
-    filename: "./index.html"
+    filename: "./index.html",
+    favicon: './public/favicon.ico'
 });
 
 module.exports = {
